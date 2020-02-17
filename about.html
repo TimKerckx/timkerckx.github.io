@@ -42,7 +42,7 @@
             <a class="nav-link" href="about.html">Samenvatting Gastcollege</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="post.html">Sample Post</a>
+            <a class="nav-link" href="post.html">CyberSecurity</a>
           </li>
 
         </ul>
@@ -57,8 +57,8 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>About Me</h1>
-            <span class="subheading">This is what I do.</span>
+            <h1>Samenvatting Gastcollege</h1>
+            <span class="subheading">Dit is mijn samnevatting van het Gastcollege.</span>
           </div>
         </div>
       </div>
@@ -69,9 +69,35 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+        <h2>Algemeen</h2>
+        <p>Vele mensen denken omdat ze een Firewall hebben dat hun applicatie veilig beschermd is, maar dat is niet zoals hun denken.<br> Een Firewall:<br>- Werkt op een poort niveau.<br>- Kunnen de inhoud van verzoeken/antwoorden niet interpreteren.<br>- Bij een aanval passeert Firewalls omdat deze poort 80 of 443 gebruiken. <br> Een ander heel belangrijk onderdeel is de OWASP top 10 die hieronder uitgelegd zal worden.</p>
+        <h1>OWASP top 10</h1>
+        <h2>1. Injection:</h2>
+        <p>code injecties, zoals SQL, OS, en LDAP injecties, staan al jaren met stip op de eerste plaats. Een code injectie vindt plaats wanneer een invoerveld onvoldoende is afgeschermd, en een aanvaller stukjes code kan laten uitvoeren via dat veld.</p>
+        <h2>2. Broken Authentication:</h2>
+        <p>Foutieve inlog- of authenticatiefunctionaliteit kan er voor zorgen dat aanvallers inloggegevens, wachtwoorden, tokens, of keys kunnen afvangen.</p>
+        <h2>3. Sensitive Data Exposure:</h2>
+        <p>Gevoelige gegevens zoals persoonsgegevens, medische informatie of financiële informatie worden niet veilig, of veilig genoeg, afgeschermd en opgeslagen.</p>
+        <h2>4. XML External Entities(XEE):</h2>
+        <p>houdt in dat verouderde of slecht geconfigureerde XML processors referenties naar externe gegevens niet goed afhandelen en daardoor het uitlezen van gegevens of het uitvoeren van externe processen mogelijk maken.</p>
+        <h2>5. Broken Acces Control:</h2>
+        <p>Beperkingen wat een gebruiker wel of niet mag uitvoeren binnen een applicatie worden in veel gevallen niet correct afgedwongen. Aanvallers kunnen deze fouten misbruiken om toegang te krijgen tot functionaliteit en/of informatie zonder dat ze hiertoe geautoriseerd zijn.</p>
+        <h2>6. Security Misconfiguration:</h2>
+        <p>Slechte beveiliging komt nog steeds het vaakst voor wanneer de configuraties niet goed zijn ingesteld, of simpele beveiliging zoals HTTPS niet goed is ingesteld. Ook het niet, of niet tijdig, updaten van software valt onder dit punt.</p>
+        <h2>7. Cross-Site Scripting:</h2>
+        <p>Een cross-site scripting kwetsbaarheid houdt in dat een webapplicatie een externe webpagina aanroept, zonder hier voldoende, of zelfs enige vorm van, bescherming en validatie op af te dwingen.</p>
+        <h2>8. Insecure Deserialisation:</h2>
+        <p>Wanneer deserialisatie plaatsvindt zonder beveiliging, kan dit misbruikt worden voor remote code executions, injecties, of andere aanvallen.</p>
+        <h2>9. Using Components With Known Vulnerabilities:</h2>
+        <p>Wanneer er externe onderdelen gebruikt worden voor een applicatie, zoals libraries of frameworks, loopt de applicatie gevaar wanneer het externe onderdeel kwetsbaar blijkt te zijn, zelfs als de beveiliging van de applicatie zelf helemaal in orde is</p>
+        <h2>10. Insufficient Logging and Monitoring:</h2>
+        <p>Doordat beheerders van een applicatie onvoldoende controle uitoefenen op de bewegingen binnen hun systeem, kan een aanvaller soms wekenlang ongemoeid zijn gang gaan. Het inzetten van logging- en monitoring software kan hierbij helpen.</p>
+        <br>
+        <h2>Conclusie</h2>
+        <p>Als u zich hiertegen beschermt, behoort uw toepassing tot de betere helft van het hele internet bevolking.</p>
+        <br>
+        <h2>Manifesto:</h2>
+        <p>Een van onze hoogste prioriteiten is om de klant tevreden te stellen door vroege en continue levering van waardevolle software. Een ander belangrijk punt is het werken met waardevolle software, dit is de primaire maatstaf voor vooruitgang.</p>
       </div>
     </div>
   </div>
@@ -83,33 +109,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+
+          <p class="copyright text-muted">TimKerckx Student Graduaat @UCLL</p>
         </div>
       </div>
     </div>
